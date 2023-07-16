@@ -1,13 +1,40 @@
 # Library
 
-Prerequiste:
+Short description or overview of the project.
 
-install openjdk17 for java 17
+## Prerequisites
 
-After installing java 17, create new database postgresql and run sql file on folder sql
+Before you begin, ensure you have the following installed:
 
-After create table Book and Book Status, run spring boot application by using `mvn springboot:run`
+- OpenJDK 17 for Java 17
 
-After running application, you can check documentary on swagger by accessing this link:
+## Installation
 
-`http://localhost:8080/swagger-ui/index.html#`
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/your/repository.git
+   ```
+
+2. Create a new PostgreSQL database and import the SQL file located in the `sql` folder.
+
+3. Configure the application:
+
+   - Open the `application.properties` file located in the project's root directory.
+   - Update the database connection settings according to your PostgreSQL setup.
+
+4. Run the Spring Boot application:
+
+   ```shell
+   mvn spring-boot:run
+   ```
+
+## Usage
+
+Once the application is up and running, you can access the Swagger documentation by navigating to:
+
+[http://localhost:8080/swagger-ui/index.html#](http://localhost:8080/swagger-ui/index.html#)
+
+## License
+
+This project is licensed under the [License Name](LICENSE).
