@@ -121,7 +121,7 @@ Replace `{id}` with the ID of the book you wish to delete.
 
 ## Swagger
 
-Or you can access the Swagger documentation by navigating to:
+Or you can access the Swagger documentation when running this application by navigating to:
 
 ```
 http://localhost:8080/swagger-ui/index.html#
