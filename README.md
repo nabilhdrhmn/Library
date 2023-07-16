@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/nabilhdrhmn/Library.git
    ```
 
 2. Create a new PostgreSQL database and import the SQL file located in the `sql` folder.
